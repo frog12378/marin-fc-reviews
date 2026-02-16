@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marin FC Tournament Reviews</title>
+  <link rel="stylesheet" href="css/pico.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+  <!-- ==================== LOGIN SCREEN ==================== -->
+  <div id="view-login">
+    <main class="container login-container">
+      <div class="login-logo">&#9917;</div>
+      <h1>Marin FC</h1>
+      <p class="subtitle">Tournament Reviews</p>
+
+      <form id="login-form">
+        <label for="invite-code">
+          Invite Code
+          <input type="password" id="invite-code" placeholder="Enter your club invite code" required autocomplete="off">
+        </label>
+        <label for="user-name">
+          Your Name
+          <input type="text" id="user-name" placeholder="e.g., Sarah M." required autocomplete="name">
+        </label>
+        <p id="login-error" hidden style="color: var(--pico-del-color); font-size: 0.9rem;"></p>
+        <button type="submit">Enter</button>
+      </form>
+
+      <p style="font-size: 0.8rem; color: var(--pico-muted-color); margin-top: 2rem;">
+        Don't have the code? Ask your team manager.
+      </p>
+    </main>
+  </div>
+
+  <!-- ==================== APP SHELL ==================== -->
+  <div id="app-shell" hidden>
+
+    <!-- User bar -->
+    <div class="user-bar">
+      <span>Logged in as <strong id="current-user"></strong></span>
+      <button id="logout-btn" class="outline secondary">Logout</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="app-nav">
+      <ul>
+        <li><a href="#tournaments" data-view="tournaments">Tournaments</a></li>
+        <li><a href="#submit" data-view="submit">Submit Review</a></li>
+        <li><a href="#reviews" data-view="reviews">View Reviews</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content area -->
+    <main class="container" id="main-content">
+
+      <!-- Loading overlay -->
+      <div id="loading-overlay">
+        <div class="loading"><span class="spinner"></span> Loading tournaments and reviews...</div>
+      </div>
+
+      <!-- ==================== TOURNAMENTS VIEW ==================== -->
+      <section id="view-tournaments" hidden>
+        <h2>Tournaments</h2>
+        <p style="color: var(--pico-muted-color); margin-bottom: 1rem;">
+          California youth soccer tournaments from GotSoccer and club additions.
+        </p>
+
+        <input type="search" id="tournament-search" placeholder="Search tournaments by name or location..." style="margin-bottom: 1rem;">
+
+        <div id="tournament-list">
+          <div class="loading"><span class="spinner"></span> Loading tournaments...</div>
+        </div>
+      </section>
+
+      <!-- ==================== SUBMIT REVIEW VIEW ==================== -->
+      <section id="view-submit" hidden>
+        <h2>Submit a Review</h2>
+        <p style="color: var(--pico-muted-color); margin-bottom: 1.5rem;">
+          Share your tournament experience to help other Marin FC families.
+        </p>
+
+        <form id="review-form">
+          <!-- Tournament selection -->
+          <label for="review-tournament">
+            Tournament
+            <select id="review-tournament" required>
+              <option value="">Loading tournaments...</option>
+            </select>
+          </label>
+
+          <div id="other-tournament-group" hidden>
+            <label for="other-tournament-name">
+              Tournament Name
+              <input type="text" id="other-tournament-name" placeholder="Enter tournament name">
+            </label>
+          </div>
+
+          <!-- Team info -->
+          <div class="form-row">
+            <label for="review-age">
+              Age Group
+              <select id="review-age" required>
+                <option value="">Select...</option>
+                <option>U7</option>
+                <option>U8</option>
+                <option>U9</option>
+                <option>U10</option>
+                <option>U11</option>
+                <option>U12</option>
+                <option>U13</option>
+                <option>U14</option>
+                <option>U15</option>
+                <option>U16</option>
+                <option>U17</option>
+                <option>U18</option>
+                <option>U19</option>
+              </select>
+            </label>
+
+            <label for="review-level">
+              Competition Level
+              <select id="review-level" required>
+                <option value="">Select...</option>
+                <option>Premier</option>
+                <option>Gold</option>
+                <option>Silver</option>
+                <option>Bronze</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="form-row">
+            <fieldset>
+              <legend>Gender</legend>
+              <label>
+                <input type="radio" name="gender" value="Boys" required>
+                Boys
+              </label>
+              <label>
+                <input type="radio" name="gender" value="Girls">
+                Girls
+              </label>
+            </fieldset>
+
+            <label for="review-date">
+              Tournament Date
+              <input type="date" id="review-date">
+            </label>
+          </div>
+
+          <!-- Star Ratings -->
+          <div class="form-row">
+            <fieldset class="star-rating">
+              <legend>Field Conditions</legend>
+              <div class="stars">
+                <input type="radio" name="fieldRating" value="5" id="field-5">
+                <label for="field-5" title="Excellent">&#9733;</label>
+                <input type="radio" name="fieldRating" value="4" id="field-4">
+                <label for="field-4" title="Good">&#9733;</label>
+                <input type="radio" name="fieldRating" value="3" id="field-3">
+                <label for="field-3" title="Average">&#9733;</label>
+                <input type="radio" name="fieldRating" value="2" id="field-2">
+                <label for="field-2" title="Below Average">&#9733;</label>
+                <input type="radio" name="fieldRating" value="1" id="field-1">
+                <label for="field-1" title="Poor">&#9733;</label>
+              </div>
+            </fieldset>
+
+            <fieldset class="star-rating">
+              <legend>Competition Quality</legend>
+              <div class="stars">
+                <input type="radio" name="competitionRating" value="5" id="comp-5">
+                <label for="comp-5" title="Excellent">&#9733;</label>
+                <input type="radio" name="competitionRating" value="4" id="comp-4">
+                <label for="comp-4" title="Good">&#9733;</label>
+                <input type="radio" name="competitionRating" value="3" id="comp-3">
+                <label for="comp-3" title="Average">&#9733;</label>
+                <input type="radio" name="competitionRating" value="2" id="comp-2">
+                <label for="comp-2" title="Below Average">&#9733;</label>
+                <input type="radio" name="competitionRating" value="1" id="comp-1">
+                <label for="comp-1" title="Poor">&#9733;</label>
+              </div>
+            </fieldset>
+          </div>
+
+          <!-- Comments -->
+          <label for="review-comments">
+            Comments
+            <textarea id="review-comments" rows="4" placeholder="Share your experience... How were the fields? Was competition balanced? Would you attend again?"></textarea>
+          </label>
+
+          <button type="submit" id="submit-review-btn">Submit Review</button>
+        </form>
+      </section>
+
+      <!-- ==================== VIEW REVIEWS ==================== -->
+      <section id="view-reviews" hidden>
+        <h2>Reviews</h2>
+
+        <!-- Aggregate stats -->
+        <div id="review-aggregates"></div>
+
+        <!-- Filters -->
+        <div class="filters-bar">
+          <div class="filter-group">
+            <label for="filter-tournament">Tournament</label>
+            <select id="filter-tournament">
+              <option value="">All Tournaments</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-age">Age Group</label>
+            <select id="filter-age">
+              <option value="">All Ages</option>
+              <option>U7</option>
+              <option>U8</option>
+              <option>U9</option>
+              <option>U10</option>
+              <option>U11</option>
+              <option>U12</option>
+              <option>U13</option>
+              <option>U14</option>
+              <option>U15</option>
+              <option>U16</option>
+              <option>U17</option>
+              <option>U18</option>
+              <option>U19</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-gender">Gender</label>
+            <select id="filter-gender">
+              <option value="">All</option>
+              <option>Boys</option>
+              <option>Girls</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-level">Level</label>
+            <select id="filter-level">
+              <option value="">All Levels</option>
+              <option>Premier</option>
+              <option>Gold</option>
+              <option>Silver</option>
+              <option>Bronze</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Review cards -->
+        <div id="review-list">
+          <div class="loading"><span class="spinner"></span> Loading reviews...</div>
+        </div>
+      </section>
+
+    </main>
+  </div><!-- /app-shell -->
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/sheets-api.js"></script>
+  <script src="js/tournaments.js"></script>
+  <script src="js/reviews.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

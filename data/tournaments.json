@@ -1,0 +1,116 @@
+{
+  "lastUpdated": "2026-02-15T00:00:00Z",
+  "source": "GotSoccer (home.gotsoccer.com)",
+  "state": "CA",
+  "count": 12,
+  "tournaments": [
+    {
+      "id": "gotsoccer-spring-shootout-2026-04-04",
+      "name": "Spring Shootout",
+      "startDate": "2026-04-04",
+      "endDate": "2026-04-05",
+      "location": "San Bernardino, CA",
+      "url": "https://home.gotsoccer.com/events.aspx",
+      "source": "gotsoccer"
+    },
+    {
+      "id": "gotsoccer-san-jose-cup-spring-2026-2026-04-10",
+      "name": "San Jose Cup - Spring 2026",
+      "startDate": "2026-04-10",
+      "endDate": "2026-04-12",
+      "location": "San Jose, CA",
+      "url": "https://home.gotsoccer.com/events.aspx",
+      "source": "gotsoccer"
+    },
+    {
+      "id": "gotsoccer-2026-california-rush-spring-cup-2026-04-11",
+      "name": "2026 California Rush Spring Cup",
+      "startDate": "2026-04-11",
+      "endDate": "2026-04-12",
+      "location": "Bay Area, CA",
+      "url": "https://home.gotsoccer.com/events.aspx",
+      "source": "gotsoccer"
+    },
+    {
+      "id": "gotsoccer-2026-pacific-coast-cup-2026-04-11",
+      "name": "2026 Pacific Coast Cup",
+      "startDate": "2026-04-11",
+      "endDate": "2026-04-12",
+      "location": "Bakersfield, CA",
+      "url": "https://home.gotsoccer.com/events.aspx",
+      "source": "gotsoccer"
+    },
+    {
+      "id": "gotsoccer-sgv-spring-cup-2026-04-11",
+      "name": "SGV Spring Cup",
+      "startDate": "2026-04-11",
+      "endDate": "2026-04-26",
+      "location": "San Dimas, CA",
+      "url": "https://home.gotsoccer.com/events.aspx",
+      "source": "gotsoccer"
+    },
+    {
+      "id": "gotsoccer-surf-challenge-cup-olders-2026-2026-04-17",
+      "name": "Surf Challenge Cup Olders 2026",
+      "startDate": "2026-04-17",
+      "endDate": "2026-04-19",
+      "location": "Folsom, CA",
+      "url": "https://home.gotsoccer.com/events.aspx",
+      "source": "gotsoccer"
+    },
+    {
+      "id": "gotsoccer-cal-north-state-cup-25-26-2026-04-18",
+      "name": "Cal North State Cup 25/26",
+      "startDate": "2026-04-18",
+      "endDate": "2026-04-19",
+      "location": "Sacramento, CA",
+      "url": "https://home.gotsoccer.com/events.aspx",
+      "source": "gotsoccer"
+    },
+    {
+      "id": "gotsoccer-socal-spring-cup-2026-04-18",
+      "name": "SoCal Spring Cup",
+      "startDate": "2026-04-18",
+      "endDate": "2026-04-19",
+      "location": "Chino, CA",
+      "url": "https://home.gotsoccer.com/events.aspx",
+      "source": "gotsoccer"
+    },
+    {
+      "id": "gotsoccer-socal-spring-cup-2026-2026-04-24",
+      "name": "SoCal Spring Cup-2026",
+      "startDate": "2026-04-24",
+      "endDate": "2026-04-26",
+      "location": "Oceanside, CA",
+      "url": "https://home.gotsoccer.com/events.aspx",
+      "source": "gotsoccer"
+    },
+    {
+      "id": "gotsoccer-2026-spring-madness-cup-2026-04-25",
+      "name": "2026 Spring Madness Cup",
+      "startDate": "2026-04-25",
+      "endDate": "2026-04-26",
+      "location": "Oceanside, CA",
+      "url": "https://home.gotsoccer.com/events.aspx",
+      "source": "gotsoccer"
+    },
+    {
+      "id": "gotsoccer-26-ir-elk-grove-cup-2026-04-25",
+      "name": "26 IR Elk Grove Cup",
+      "startDate": "2026-04-25",
+      "endDate": "2026-04-26",
+      "location": "Elk Grove, CA",
+      "url": "https://home.gotsoccer.com/events.aspx",
+      "source": "gotsoccer"
+    },
+    {
+      "id": "gotsoccer-mvla-bay-area-spring-cup-2026-2026-04-25",
+      "name": "MVLA Bay Area Spring Cup 2026",
+      "startDate": "2026-04-25",
+      "endDate": "2026-04-26",
+      "location": "Sunnyvale, CA",
+      "url": "https://home.gotsoccer.com/events.aspx",
+      "source": "gotsoccer"
+    }
+  ]
+}

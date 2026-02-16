@@ -10,36 +10,48 @@ A website for Marin FC club members to share feedback on youth soccer tournament
 - **Password Protected** - Invite code required to access (share with club members only)
 - **Mobile Friendly** - Designed for use at the fields on your phone
 
-## Quick Start
+## Deploy in 3 Steps
 
-### 1. Set Up Google Sheets Backend
+### 1. Push to GitHub
 
-Follow the instructions in [`apps-script/README.md`](apps-script/README.md) to:
-1. Create a Google Sheet with the Reviews tab
-2. Deploy the Apps Script as a web app
-3. Copy the deployment URL
+Create a new repo called `marin-fc-reviews` and push this code:
 
-### 2. Configure the Site
-
-Edit `js/config.js` and set your Apps Script URL:
-
-```javascript
-APPS_SCRIPT_URL: 'https://script.google.com/macros/s/YOUR_ID/exec',
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/marin-fc-reviews.git
+git push -u origin main
 ```
 
-### 3. Deploy to GitHub Pages
+### 2. Deploy on Netlify
 
-1. Push this repo to GitHub
-2. Go to Settings > Pages
-3. Source: Deploy from a branch
-4. Branch: `main`, folder: `/ (root)`
-5. Save
+1. Go to [netlify.com](https://netlify.com) and sign up (free) with your GitHub account
+2. Click **"Add new site" > "Import an existing project"**
+3. Select your `marin-fc-reviews` repository
+4. Leave all settings as default and click **"Deploy site"**
+5. Your site is live! (Netlify gives you a URL like `amazing-name-123.netlify.app`)
 
-Your site will be live at `https://yourusername.github.io/marin-fc-reviews/`
+### 3. Enable Review Reading (optional but recommended)
+
+To let club members see each other's reviews:
+
+1. In Netlify dashboard, go to **User settings > Applications > Personal access tokens**
+2. Click **"New access token"**, name it "Marin FC Reviews", click **Generate**
+3. Copy the token
+4. Go to your site's **Site settings > Environment variables**
+5. Add: `NETLIFY_ACCESS_TOKEN` = (paste your token)
+6. **Redeploy** the site (Deploys > Trigger deploy)
+
+That's it! Reviews will now be visible to all club members.
 
 ### 4. Share with Club Members
 
 Share the invite code (**GoMarinFC!**) and the website URL with your teams.
+
+## How It Works
+
+- **Submitting reviews**: Uses [Netlify Forms](https://docs.netlify.com/forms/setup/) - zero backend config, Netlify detects the form automatically
+- **Reading reviews**: A small serverless function fetches submissions from Netlify's API
+- **Tournament data**: JSON files in the `data/` folder, auto-updated weekly from GotSoccer
+- **Authentication**: Invite code is SHA-256 hashed (not stored in plaintext)
 
 ## Managing Tournaments
 
@@ -69,46 +81,28 @@ Edit `data/manual-tournaments.json` to add tournaments not listed on GotSoccer:
 }
 ```
 
+## Viewing Submissions in Netlify
+
+Even without the API token setup, you can always view submissions directly:
+1. Go to your Netlify dashboard
+2. Click your site > **Forms**
+3. Click **"tournament-review"** to see all submissions
+
+You'll also get email notifications for each new submission.
+
 ## Changing the Invite Code
 
-1. Generate a new SHA-256 hash of your desired code:
+1. Generate a new SHA-256 hash:
    ```bash
    echo -n "YourNewCode" | shasum -a 256
    ```
-2. Update `CONFIG.INVITE_CODE_HASH` in `js/config.js` with the new hash
-3. Commit and push
-
-## Project Structure
-
-```
-├── index.html              # Main page (single-page app)
-├── css/
-│   ├── pico.min.css        # CSS framework
-│   └── custom.css          # Custom styles
-├── js/
-│   ├── config.js           # Configuration (invite code hash, API URL)
-│   ├── auth.js             # Authentication
-│   ├── app.js              # App controller & routing
-│   ├── tournaments.js      # Tournament data
-│   ├── reviews.js          # Review form & display
-│   ├── sheets-api.js       # Google Sheets API wrapper
-│   └── utils.js            # Utilities
-├── data/
-│   ├── tournaments.json    # GotSoccer data (auto-updated)
-│   └── manual-tournaments.json
-├── scripts/
-│   └── scrape-gotsoccer.js # Tournament scraper
-├── apps-script/
-│   ├── Code.gs             # Google Apps Script backend
-│   └── README.md           # Setup instructions
-└── .github/workflows/
-    └── scrape-tournaments.yml
-```
+2. Update `CONFIG.INVITE_CODE_HASH` in `js/config.js`
+3. Commit and push (Netlify auto-deploys)
 
 ## Tech Stack
 
-- **Hosting**: GitHub Pages (free)
-- **Frontend**: Vanilla HTML/CSS/JS + Pico CSS
-- **Backend**: Google Sheets + Apps Script (free)
-- **Scraping**: Node.js + cheerio via GitHub Actions
+- **Hosting & Forms**: [Netlify](https://netlify.com) (free tier: 100 form submissions/month)
+- **Frontend**: Vanilla HTML/CSS/JS + [Pico CSS](https://picocss.com)
+- **Serverless Function**: Netlify Functions (reads form submissions)
+- **Tournament Scraping**: Node.js + cheerio via GitHub Actions
 - **Auth**: Client-side SHA-256 hash comparison

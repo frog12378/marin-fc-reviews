@@ -259,6 +259,20 @@
     </main>
   </div><!-- /app-shell -->
 
+  <!-- Hidden form for Netlify Forms detection (scanned at deploy time) -->
+  <form name="tournament-review" netlify netlify-honeypot="bot-field" hidden>
+    <input name="bot-field">
+    <input name="tournament">
+    <input name="ageGroup">
+    <input name="gender">
+    <input name="level">
+    <input name="tournamentDate">
+    <input name="fieldRating">
+    <input name="competitionRating">
+    <input name="comments">
+    <input name="reviewer">
+  </form>
+
   <!-- Scripts -->
   <script src="js/config.js"></script>
   <script src="js/utils.js"></script>

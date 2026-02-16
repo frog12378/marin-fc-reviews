@@ -1,59 +1,42 @@
-// Marin FC - Google Sheets API (via Apps Script)
+// Marin FC - Netlify Forms API wrapper
+// Submissions: Netlify Forms (zero config - just HTML attributes)
+// Reading back: Netlify Function that calls the Netlify submissions API
 
 const SheetsAPI = {
   async submitReview(reviewData) {
-    if (!CONFIG.APPS_SCRIPT_URL) {
-      throw new Error('Apps Script URL not configured. See README for setup instructions.');
+    // Submit via URL-encoded POST to Netlify Forms
+    const formData = new URLSearchParams();
+    formData.append('form-name', 'tournament-review');
+
+    for (const [key, value] of Object.entries(reviewData)) {
+      formData.append(key, String(value));
     }
 
-    const response = await fetch(CONFIG.APPS_SCRIPT_URL, {
+    const response = await fetch('/', {
       method: 'POST',
-      headers: { 'Content-Type': 'text/plain' },
-      body: JSON.stringify(reviewData),
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: formData.toString(),
     });
 
     if (!response.ok) {
-      throw new Error(`Server error: ${response.status}`);
+      throw new Error(`Submission failed (${response.status}). Please try again.`);
     }
 
-    const result = await response.json();
-    if (result.status !== 'success') {
-      throw new Error(result.message || 'Failed to submit review');
-    }
-
-    return result;
+    return { status: 'success' };
   },
 
   async getReviews() {
-    if (!CONFIG.APPS_SCRIPT_URL) {
-      // Return empty for demo/dev mode when no backend configured
+    try {
+      const response = await fetch('/.netlify/functions/get-reviews');
+      if (!response.ok) {
+        console.warn('Could not fetch reviews:', response.status);
+        return [];
+      }
+      const data = await response.json();
+      return data.reviews || [];
+    } catch (err) {
+      console.warn('Reviews fetch failed (may be running locally):', err.message);
       return [];
     }
-
-    const url = `${CONFIG.APPS_SCRIPT_URL}?action=getReviews`;
-    const response = await fetch(url);
-
-    if (!response.ok) {
-      throw new Error(`Server error: ${response.status}`);
-    }
-
-    const result = await response.json();
-    if (result.status !== 'success') {
-      throw new Error(result.message || 'Failed to fetch reviews');
-    }
-
-    return result.reviews || [];
-  },
-
-  async getManualTournaments() {
-    if (!CONFIG.APPS_SCRIPT_URL) return [];
-
-    const url = `${CONFIG.APPS_SCRIPT_URL}?action=getManualTournaments`;
-    const response = await fetch(url);
-
-    if (!response.ok) return [];
-
-    const result = await response.json();
-    return result.tournaments || [];
   }
 };

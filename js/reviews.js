@@ -3,6 +3,7 @@
 const Reviews = {
   _reviews: [],
   _reviewsByTournament: {},
+  _editingReview: null, // Track which review is being edited
 
   async loadReviews() {
     try {
@@ -34,6 +35,7 @@ const Reviews = {
     const tournamentSelect = document.getElementById('review-tournament');
     const otherTournament = document.getElementById('other-tournament-group');
     const submitBtn = document.getElementById('submit-review-btn');
+    const cancelBtn = document.getElementById('cancel-edit-btn');
 
     // Show/hide "other" field
     tournamentSelect.addEventListener('change', () => {
@@ -44,6 +46,74 @@ const Reviews = {
       e.preventDefault();
       await this.handleSubmit(form, submitBtn);
     });
+
+    // Cancel edit button
+    if (cancelBtn) {
+      cancelBtn.addEventListener('click', () => this.cancelEdit());
+    }
+  },
+
+  // --- Edit Mode ---
+
+  startEdit(review) {
+    this._editingReview = review;
+    const form = document.getElementById('review-form');
+
+    // Update form title and button
+    document.getElementById('form-title').textContent = 'Edit Review';
+    document.getElementById('submit-review-btn').textContent = 'Update Review';
+    document.getElementById('cancel-edit-btn').hidden = false;
+
+    // Pre-populate fields
+    const tournament = review.tournament || review['Tournament'] || '';
+    const tournamentSelect = form.querySelector('#review-tournament');
+
+    // Check if tournament is in the dropdown
+    const options = Array.from(tournamentSelect.options).map(o => o.value);
+    if (options.includes(tournament)) {
+      tournamentSelect.value = tournament;
+      document.getElementById('other-tournament-group').hidden = true;
+    } else {
+      tournamentSelect.value = '__other__';
+      document.getElementById('other-tournament-group').hidden = false;
+      form.querySelector('#other-tournament-name').value = tournament;
+    }
+
+    form.querySelector('#review-age').value = review.ageGroup || review['Age Group'] || '';
+    form.querySelector('#review-level').value = review.level || review['Level'] || '';
+    form.querySelector('#review-date').value = review.tournamentDate || review['Tournament Date'] || '';
+    form.querySelector('#review-comments').value = review.comments || review['Comments'] || '';
+
+    // Set radio buttons
+    const gender = review.gender || review['Gender'] || '';
+    const genderRadio = form.querySelector(`input[name="gender"][value="${gender}"]`);
+    if (genderRadio) genderRadio.checked = true;
+
+    const fieldType = review.fieldType || review['Field Type'] || '';
+    const fieldTypeRadio = form.querySelector(`input[name="fieldType"][value="${fieldType}"]`);
+    if (fieldTypeRadio) fieldTypeRadio.checked = true;
+
+    const fieldRating = review.fieldRating || review['Field Rating'] || '';
+    const fieldRatingRadio = form.querySelector(`input[name="fieldRating"][value="${fieldRating}"]`);
+    if (fieldRatingRadio) fieldRatingRadio.checked = true;
+
+    const compRating = review.competitionRating || review['Competition Rating'] || '';
+    const compRatingRadio = form.querySelector(`input[name="competitionRating"][value="${compRating}"]`);
+    if (compRatingRadio) compRatingRadio.checked = true;
+
+    // Navigate to submit view
+    location.hash = 'submit';
+    window.scrollTo(0, 0);
+  },
+
+  cancelEdit() {
+    this._editingReview = null;
+    const form = document.getElementById('review-form');
+    form.reset();
+    document.getElementById('form-title').textContent = 'Submit a Review';
+    document.getElementById('submit-review-btn').textContent = 'Submit Review';
+    document.getElementById('cancel-edit-btn').hidden = true;
+    document.getElementById('other-tournament-group').hidden = true;
   },
 
   async handleSubmit(form, submitBtn) {
@@ -99,24 +169,66 @@ const Reviews = {
       reviewer: Auth.getUser(),
     };
 
+    // If editing, include the existing review's ID and timestamp
+    if (this._editingReview) {
+      reviewData.id = this._editingReview.id || this._editingReview['ID'];
+      reviewData.timestamp = this._editingReview.timestamp || this._editingReview['Timestamp'];
+    }
+
     // Submit
+    const isEditing = !!this._editingReview;
     submitBtn.disabled = true;
     submitBtn.setAttribute('aria-busy', 'true');
-    submitBtn.textContent = 'Submitting...';
+    submitBtn.textContent = isEditing ? 'Updating...' : 'Submitting...';
 
     try {
-      await SheetsAPI.submitReview(reviewData);
-      Utils.showToast('Review submitted! Thanks for your feedback.');
+      if (isEditing) {
+        await SheetsAPI.updateReview(reviewData);
+        Utils.showToast('Review updated!');
+      } else {
+        await SheetsAPI.submitReview(reviewData);
+        Utils.showToast('Review submitted! Thanks for your feedback.');
+      }
+
+      // Reset form and edit state
+      this._editingReview = null;
       form.reset();
       document.getElementById('other-tournament-group').hidden = true;
+      document.getElementById('form-title').textContent = 'Submit a Review';
+      document.getElementById('cancel-edit-btn').hidden = true;
+
       // Refresh reviews
       await this.loadReviews();
+      Reviews.initDisplay();
+
+      // Navigate to reviews view
+      location.hash = 'reviews';
     } catch (err) {
       Utils.showToast(err.message || 'Failed to submit. Please try again.', 'error');
     } finally {
       submitBtn.disabled = false;
       submitBtn.removeAttribute('aria-busy');
-      submitBtn.textContent = 'Submit Review';
+      submitBtn.textContent = isEditing ? 'Update Review' : 'Submit Review';
+    }
+  },
+
+  // --- Delete Review ---
+
+  async deleteReview(review) {
+    const id = review.id || review['ID'];
+    const reviewer = review.reviewer || review['Reviewer'];
+
+    if (!confirm('Are you sure you want to delete this review? This cannot be undone.')) {
+      return;
+    }
+
+    try {
+      await SheetsAPI.deleteReview(id, reviewer);
+      Utils.showToast('Review deleted.');
+      await this.loadReviews();
+      Reviews.initDisplay();
+    } catch (err) {
+      Utils.showToast(err.message || 'Failed to delete review.', 'error');
     }
   },
 
@@ -147,9 +259,11 @@ const Reviews = {
       return;
     }
 
+    const currentUser = Auth.getUser();
+
     // Sort by most recent first
     const sorted = [...reviews].sort(
-      (a, b) => new Date(b.Timestamp || 0) - new Date(a.Timestamp || 0)
+      (a, b) => new Date(b.timestamp || b.Timestamp || 0) - new Date(a.timestamp || a.Timestamp || 0)
     );
 
     container.innerHTML = sorted.map(r => {
@@ -164,10 +278,21 @@ const Reviews = {
       const reviewer = r['Reviewer'] || r.reviewer || 'Anonymous';
       const timestamp = r['Timestamp'] || r.timestamp || '';
       const tournamentDate = r['Tournament Date'] || r.tournamentDate || '';
+      const reviewId = r['ID'] || r.id || '';
+
+      const isOwner = currentUser && reviewer === currentUser;
 
       return `
-        <div class="review-card">
-          <h4>${Utils.escapeHtml(tournament)}</h4>
+        <div class="review-card" data-review-id="${Utils.escapeHtml(reviewId)}">
+          <div class="review-card-header">
+            <h4>${Utils.escapeHtml(tournament)}</h4>
+            ${isOwner ? `
+              <div class="review-actions">
+                <button class="review-edit-btn" data-id="${Utils.escapeHtml(reviewId)}" title="Edit review">&#9998; Edit</button>
+                <button class="review-delete-btn" data-id="${Utils.escapeHtml(reviewId)}" title="Delete review">&#128465; Delete</button>
+              </div>
+            ` : ''}
+          </div>
           <div class="review-meta">
             <span>${Utils.escapeHtml(ageGroup)}</span>
             <span>${Utils.escapeHtml(gender)}</span>
@@ -191,6 +316,23 @@ const Reviews = {
           </div>
         </div>`;
     }).join('');
+
+    // Bind edit/delete button events
+    container.querySelectorAll('.review-edit-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.dataset.id;
+        const review = this._reviews.find(r => (r.id || r['ID']) === id);
+        if (review) this.startEdit(review);
+      });
+    });
+
+    container.querySelectorAll('.review-delete-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.dataset.id;
+        const review = this._reviews.find(r => (r.id || r['ID']) === id);
+        if (review) this.deleteReview(review);
+      });
+    });
   },
 
   applyFilters() {

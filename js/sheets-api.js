@@ -1,33 +1,44 @@
-// Marin FC - Netlify Forms API wrapper
-// Submissions: Netlify Forms (zero config - just HTML attributes)
-// Reading back: Netlify Function that calls the Netlify submissions API
+// Marin FC - Reviews API wrapper (Netlify Functions + Blobs)
 
 const SheetsAPI = {
   async submitReview(reviewData) {
-    // Submit via URL-encoded POST to Netlify Forms
-    const formData = new URLSearchParams();
-    formData.append('form-name', 'tournament-review');
-
-    for (const [key, value] of Object.entries(reviewData)) {
-      formData.append(key, String(value));
-    }
-
-    const response = await fetch('/', {
+    const response = await fetch('/.netlify/functions/reviews', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: formData.toString(),
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(reviewData),
     });
 
     if (!response.ok) {
-      throw new Error(`Submission failed (${response.status}). Please try again.`);
+      const err = await response.json().catch(() => ({}));
+      throw new Error(err.error || `Submission failed (${response.status})`);
     }
 
-    return { status: 'success' };
+    return response.json();
+  },
+
+  async updateReview(reviewData) {
+    // Same endpoint, POST with existing ID triggers update
+    return this.submitReview(reviewData);
+  },
+
+  async deleteReview(id, reviewer) {
+    const response = await fetch('/.netlify/functions/reviews', {
+      method: 'DELETE',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id, reviewer }),
+    });
+
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({}));
+      throw new Error(err.error || `Delete failed (${response.status})`);
+    }
+
+    return response.json();
   },
 
   async getReviews() {
     try {
-      const response = await fetch('/.netlify/functions/get-reviews');
+      const response = await fetch('/.netlify/functions/reviews');
       if (!response.ok) {
         console.warn('Could not fetch reviews:', response.status);
         return [];

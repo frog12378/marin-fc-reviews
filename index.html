@@ -69,7 +69,7 @@
 
       <!-- ==================== SUBMIT REVIEW VIEW ==================== -->
       <section id="view-submit" hidden>
-        <h2>Submit a Review</h2>
+        <h2 id="form-title">Submit a Review</h2>
         <p style="color: var(--pico-muted-color); margin-bottom: 1.5rem;">
           Share your tournament experience to help other Marin FC families.
         </p>
@@ -199,7 +199,10 @@
             <textarea id="review-comments" rows="4" placeholder="Share your experience... How were the fields? Was competition balanced? Would you attend again?"></textarea>
           </label>
 
-          <button type="submit" id="submit-review-btn">Submit Review</button>
+          <div class="form-buttons">
+            <button type="submit" id="submit-review-btn">Submit Review</button>
+            <button type="button" id="cancel-edit-btn" class="outline secondary" hidden>Cancel</button>
+          </div>
         </form>
       </section>
 
@@ -265,21 +268,6 @@
 
     </main>
   </div><!-- /app-shell -->
-
-  <!-- Hidden form for Netlify Forms detection (scanned at deploy time) -->
-  <form name="tournament-review" netlify netlify-honeypot="bot-field" hidden>
-    <input name="bot-field">
-    <input name="tournament">
-    <input name="ageGroup">
-    <input name="gender">
-    <input name="level">
-    <input name="tournamentDate">
-    <input name="fieldType">
-    <input name="fieldRating">
-    <input name="competitionRating">
-    <input name="comments">
-    <input name="reviewer">
-  </form>
 
   <!-- Scripts -->
   <script src="js/config.js"></script>

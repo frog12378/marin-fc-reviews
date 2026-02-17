@@ -1,7 +1,7 @@
 // Marin FC Tournament Reviews - Configuration
 const CONFIG = {
   // SHA-256 hash of the invite code (not stored in plaintext)
-  INVITE_CODE_HASH: 'c196b571fe0f96625dbc3ac1c9263e938d3aca76fb343fb29b4fedec88caa231',
+  INVITE_CODE_HASH: 'c11104d9ff66d78068e669195aceb04ca44a43a1da268d3156e1795364ea6965',
 
   // App settings
   APP_NAME: 'Marin FC Tournament Reviews',

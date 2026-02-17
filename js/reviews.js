@@ -54,6 +54,7 @@ const Reviews = {
     const gender = form.querySelector('input[name="gender"]:checked')?.value;
     const level = form.querySelector('#review-level').value;
     const tournamentDate = form.querySelector('#review-date').value;
+    const fieldType = form.querySelector('input[name="fieldType"]:checked')?.value;
     const fieldRating = form.querySelector('input[name="fieldRating"]:checked')?.value;
     const competitionRating = form.querySelector('input[name="competitionRating"]:checked')?.value;
     const comments = form.querySelector('#review-comments').value.trim();
@@ -76,6 +77,10 @@ const Reviews = {
       Utils.showToast('Please select a competition level.', 'error');
       return;
     }
+    if (!fieldType) {
+      Utils.showToast('Please select the field surface (Grass or Turf).', 'error');
+      return;
+    }
     if (!fieldRating || !competitionRating) {
       Utils.showToast('Please rate both field conditions and competition quality.', 'error');
       return;
@@ -87,6 +92,7 @@ const Reviews = {
       gender,
       level,
       tournamentDate: tournamentDate || '',
+      fieldType,
       fieldRating: Number(fieldRating),
       competitionRating: Number(competitionRating),
       comments,
@@ -151,6 +157,7 @@ const Reviews = {
       const ageGroup = r['Age Group'] || r.ageGroup || '';
       const gender = r['Gender'] || r.gender || '';
       const level = r['Level'] || r.level || '';
+      const fieldType = r['Field Type'] || r.fieldType || '';
       const fieldRating = r['Field Rating'] || r.fieldRating || 0;
       const compRating = r['Competition Rating'] || r.competitionRating || 0;
       const comments = r['Comments'] || r.comments || '';
@@ -165,6 +172,7 @@ const Reviews = {
             <span>${Utils.escapeHtml(ageGroup)}</span>
             <span>${Utils.escapeHtml(gender)}</span>
             <span>${Utils.escapeHtml(level)}</span>
+            ${fieldType ? `<span>${Utils.escapeHtml(fieldType)}</span>` : ''}
             ${tournamentDate ? `<span>${Utils.formatDate(tournamentDate)}</span>` : ''}
           </div>
           <div class="review-ratings">

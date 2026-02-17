@@ -70,6 +70,7 @@ exports.handler = async (event) => {
       'Gender': sub.data.gender || '',
       'Level': sub.data.level || '',
       'Tournament Date': sub.data.tournamentDate || '',
+      'Field Type': sub.data.fieldType || '',
       'Field Rating': Number(sub.data.fieldRating) || 0,
       'Competition Rating': Number(sub.data.competitionRating) || 0,
       'Comments': sub.data.comments || '',

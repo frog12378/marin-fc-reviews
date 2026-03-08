@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-01T08:35:52.699Z",
+  "lastUpdated": "2026-03-08T08:36:03.303Z",
   "source": "GotSoccer (home.gotsoccer.com)",
   "state": "CA",
-  "count": 183,
+  "count": 182,
   "tournaments": [
     {
       "name": "Event Rankings",
@@ -446,15 +446,6 @@
       "id": "gotsoccer-2026-california-rush-spring-cup-"
     },
     {
-      "name": "2026 Pacific Coast Cup",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://rankings.gotsport.com/events/51215",
-      "source": "gotsoccer",
-      "id": "gotsoccer-2026-pacific-coast-cup-"
-    },
-    {
       "name": "GotSport Easter Tournament - April",
       "startDate": "",
       "endDate": "",
@@ -500,15 +491,6 @@
       "id": "gotsoccer-ie-elite-cup-2026-youngers-weekend-"
     },
     {
-      "name": "View Next 8 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=4/1/2026&age=&featured=&Page=2",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-8-events-"
-    },
-    {
       "name": "SoCal Spring Cup",
       "startDate": "",
       "endDate": "",
@@ -516,6 +498,15 @@
       "url": "https://rankings.gotsport.com/events/51786",
       "source": "gotsoccer",
       "id": "gotsoccer-socal-spring-cup-"
+    },
+    {
+      "name": "View Next 7 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=4/1/2026&age=&featured=&Page=2",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-7-events-"
     },
     {
       "name": "SoCal Spring Cup-2026",
@@ -662,6 +653,15 @@
       "id": "gotsoccer-express-cup-2026-"
     },
     {
+      "name": "2026 Pacific Coast Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/51215",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-pacific-coast-cup-"
+    },
+    {
       "name": "Cal North District 2 Spring Cup -2026",
       "startDate": "",
       "endDate": "",
@@ -678,15 +678,6 @@
       "url": "https://rankings.gotsport.com/events/51037",
       "source": "gotsoccer",
       "id": "gotsoccer-copa-cabana-beach-soccer-long-beach-may-9-"
-    },
-    {
-      "name": "2026 Central Coast Classic",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://rankings.gotsport.com/events/51223",
-      "source": "gotsoccer",
-      "id": "gotsoccer-2026-central-coast-classic-"
     },
     {
       "name": "Concord Cup XXXI",

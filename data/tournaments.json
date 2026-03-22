@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-15T08:41:10.453Z",
+  "lastUpdated": "2026-03-22T08:38:52.822Z",
   "source": "GotSoccer (home.gotsoccer.com)",
   "state": "CA",
-  "count": 201,
+  "count": 207,
   "tournaments": [
     {
       "name": "Event Rankings",
@@ -212,6 +212,15 @@
       "id": "gotsoccer-2026-dublin-united-clover-cup-tournament-"
     },
     {
+      "name": "Cal South Nationals State Cup Olders  2026 (U15-U19)",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53019",
+      "source": "gotsoccer",
+      "id": "gotsoccer-cal-south-nationals-state-cup-olders-2026-u15-u19-"
+    },
+    {
       "name": "Copa Cabana Beach Soccer Port Hueneme March 14",
       "startDate": "",
       "endDate": "",
@@ -284,6 +293,15 @@
       "id": "gotsoccer-3-shastas-spring-classic-2026-"
     },
     {
+      "name": "2026 State Cup Presidents Olders",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53018",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-state-cup-presidents-olders-"
+    },
+    {
       "name": "OC Spring Kickoff - Girls Weekend",
       "startDate": "",
       "endDate": "",
@@ -347,6 +365,15 @@
       "id": "gotsoccer-allstars-united-spring-shootout-2026-"
     },
     {
+      "name": "View Next 5 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=3/1/2026&age=&featured=&Page=4",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-5-events-"
+    },
+    {
       "name": "Kicks Spring Cup 2026 - School Year *",
       "startDate": "",
       "endDate": "",
@@ -365,13 +392,13 @@
       "id": "gotsoccer-la-strong-cup-2026-"
     },
     {
-      "name": "View Next 1 Events →",
+      "name": "SOCAL California Cup 2026",
       "startDate": "",
       "endDate": "",
       "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=3/1/2026&age=&featured=&Page=4",
+      "url": "https://rankings.gotsport.com/events/52953",
       "source": "gotsoccer",
-      "id": "gotsoccer-view-next-1-events-"
+      "id": "gotsoccer-socal-california-cup-2026-"
     },
     {
       "name": "SOCAL State Cup 2026 -  Youngers  2019 - 2012",
@@ -381,6 +408,15 @@
       "url": "https://rankings.gotsport.com/events/48929",
       "source": "gotsoccer",
       "id": "gotsoccer-socal-state-cup-2026-youngers-2019-2012-"
+    },
+    {
+      "name": "2026 State Cup Presidents Youngers",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53016",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-state-cup-presidents-youngers-"
     },
     {
       "name": "2026 Spring Tall Trees",
@@ -536,6 +572,15 @@
       "id": "gotsoccer-26-ir-elk-grove-cup-"
     },
     {
+      "name": "Ice Breakers Cup 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53131",
+      "source": "gotsoccer",
+      "id": "gotsoccer-ice-breakers-cup-2026-"
+    },
+    {
       "name": "MVLA Bay Area Spring Cup 2026",
       "startDate": "",
       "endDate": "",
@@ -581,6 +626,15 @@
       "id": "gotsoccer-playdate-tracy-4-26-26-"
     },
     {
+      "name": "View Next 1 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=4/1/2026&age=&featured=&Page=3",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-1-events-"
+    },
+    {
       "name": "2026 Blossom Bash",
       "startDate": "",
       "endDate": "",
@@ -597,6 +651,15 @@
       "url": "https://rankings.gotsport.com/events/50130",
       "source": "gotsoccer",
       "id": "gotsoccer-2026-davis-legacy-super-clasico-spring-edition-"
+    },
+    {
+      "name": "2026 Fiesta Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/44389",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-fiesta-cup-"
     },
     {
       "name": "2026 Pacifica Milliken Fog Classic",
@@ -660,15 +723,6 @@
       "url": "https://rankings.gotsport.com/events/51581",
       "source": "gotsoccer",
       "id": "gotsoccer-oc-spring-classic-"
-    },
-    {
-      "name": "Vacaville Fiesta Cup 2026",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://rankings.gotsport.com/events/44389",
-      "source": "gotsoccer",
-      "id": "gotsoccer-vacaville-fiesta-cup-2026-"
     },
     {
       "name": "City SC Chula Vista Spring 4v4 Cup",
@@ -750,6 +804,24 @@
       "url": "https://rankings.gotsport.com/events/46663",
       "source": "gotsoccer",
       "id": "gotsoccer-elsinore-cup-2026-"
+    },
+    {
+      "name": "Reggie Banks Memorial Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/52882",
+      "source": "gotsoccer",
+      "id": "gotsoccer-reggie-banks-memorial-cup-"
+    },
+    {
+      "name": "The Classic",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53017",
+      "source": "gotsoccer",
+      "id": "gotsoccer-the-classic-"
     },
     {
       "name": "2026 California Cup",
@@ -903,15 +975,6 @@
       "url": "https://rankings.gotsport.com/events/51313",
       "source": "gotsoccer",
       "id": "gotsoccer-san-clemente-cup-"
-    },
-    {
-      "name": "View Next 10 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=5/1/2026&age=&featured=&Page=4",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-10-events-"
     },
     {
       "name": "2026 California Rush Summer Cup",
@@ -1434,15 +1497,6 @@
       "url": "https://rankings.gotsport.com/events/50726",
       "source": "gotsoccer",
       "id": "gotsoccer-tsp-liberty-cup-2026-"
-    },
-    {
-      "name": "View Next 5 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=7/1/2026&age=&featured=&Page=3",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-5-events-"
     },
     {
       "name": "Playdate - Morgan Hill 7/26/26",

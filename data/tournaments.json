@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-22T08:38:52.822Z",
+  "lastUpdated": "2026-03-29T08:44:26.923Z",
   "source": "GotSoccer (home.gotsoccer.com)",
   "state": "CA",
-  "count": 207,
+  "count": 217,
   "tournaments": [
     {
       "name": "Event Rankings",
@@ -1436,6 +1436,15 @@
       "id": "gotsoccer-isa-summer-showcase-2026-"
     },
     {
+      "name": "TSP Liberty Cup 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/50726",
+      "source": "gotsoccer",
+      "id": "gotsoccer-tsp-liberty-cup-2026-"
+    },
+    {
       "name": "2026 Temecula Midsummer Cup",
       "startDate": "",
       "endDate": "",
@@ -1490,13 +1499,22 @@
       "id": "gotsoccer-platinum-ie-invitational-cup-2026-"
     },
     {
-      "name": "TSP Liberty Cup 2026",
+      "name": "View Next 6 Events →",
       "startDate": "",
       "endDate": "",
       "location": "",
-      "url": "https://rankings.gotsport.com/events/50726",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=7/1/2026&age=&featured=&Page=3",
       "source": "gotsoccer",
-      "id": "gotsoccer-tsp-liberty-cup-2026-"
+      "id": "gotsoccer-view-next-6-events-"
+    },
+    {
+      "name": "San Ramon FC Summer Classic 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53412",
+      "source": "gotsoccer",
+      "id": "gotsoccer-san-ramon-fc-summer-classic-2026-"
     },
     {
       "name": "Playdate - Morgan Hill 7/26/26",
@@ -1670,6 +1688,15 @@
       "id": "gotsoccer-copa-cabana-beach-soccer-port-hueneme-august-8-"
     },
     {
+      "name": "Copa Revolution - Girls 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53285",
+      "source": "gotsoccer",
+      "id": "gotsoccer-copa-revolution-girls-2026-"
+    },
+    {
       "name": "FC Man United Cup 2026 Olders Edition",
       "startDate": "",
       "endDate": "",
@@ -1715,6 +1742,15 @@
       "id": "gotsoccer-copa-rayados-california-u9-u12-"
     },
     {
+      "name": "San Diego Premier Classic 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53130",
+      "source": "gotsoccer",
+      "id": "gotsoccer-san-diego-premier-classic-2026-"
+    },
+    {
       "name": "2026 Mustang Stampede Boys (U13-U19)",
       "startDate": "",
       "endDate": "",
@@ -1751,6 +1787,15 @@
       "id": "gotsoccer-copa-cabana-beach-soccer-long-beach-august-15-"
     },
     {
+      "name": "Copa Revolution - Boys 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53286",
+      "source": "gotsoccer",
+      "id": "gotsoccer-copa-revolution-boys-2026-"
+    },
+    {
       "name": "FC Man United Cup 2016 Youngers Edition",
       "startDate": "",
       "endDate": "",
@@ -1758,6 +1803,15 @@
       "url": "https://rankings.gotsport.com/events/51525",
       "source": "gotsoccer",
       "id": "gotsoccer-fc-man-united-cup-2016-youngers-edition-"
+    },
+    {
+      "name": "LAGUNA BEACH SUMMER CLASSIC 2026 - BOYS",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53488",
+      "source": "gotsoccer",
+      "id": "gotsoccer-laguna-beach-summer-classic-2026-boys-"
     },
     {
       "name": "Quakes Summer Cup - 2026",
@@ -1776,15 +1830,6 @@
       "url": "https://rankings.gotsport.com/events/51787",
       "source": "gotsoccer",
       "id": "gotsoccer-socal-elite-summer-invitational-"
-    },
-    {
-      "name": "Toyota of Orange Classic 2026",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://rankings.gotsport.com/events/50187",
-      "source": "gotsoccer",
-      "id": "gotsoccer-toyota-of-orange-classic-2026-"
     },
     {
       "name": "Coastal Classic - Boys 2026",
@@ -1814,6 +1859,15 @@
       "id": "gotsoccer-2026-kelme-cup-ockc-boys-"
     },
     {
+      "name": "View Next 10 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=8/1/2026&age=&featured=&Page=4",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-10-events-"
+    },
+    {
       "name": "ALBION CUP PRESEASON ELITE SHOWCASE 2026",
       "startDate": "",
       "endDate": "",
@@ -1821,6 +1875,24 @@
       "url": "https://rankings.gotsport.com/events/49533",
       "source": "gotsoccer",
       "id": "gotsoccer-albion-cup-preseason-elite-showcase-2026-"
+    },
+    {
+      "name": "ESS Cup - Ticket To Spain",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53439",
+      "source": "gotsoccer",
+      "id": "gotsoccer-ess-cup-ticket-to-spain-"
+    },
+    {
+      "name": "LAGUNA BEACH SUMMER CLASSIC 2026 - GIRLS",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53486",
+      "source": "gotsoccer",
+      "id": "gotsoccer-laguna-beach-summer-classic-2026-girls-"
     },
     {
       "name": "Platinum IE Challenge Cup  - 2026",
@@ -1841,15 +1913,6 @@
       "id": "gotsoccer-steel-united-summer-showdown-2026-"
     },
     {
-      "name": "View Next 2 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=8/1/2026&age=&featured=&Page=4",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-2-events-"
-    },
-    {
       "name": "Summer Classic 2026",
       "startDate": "",
       "endDate": "",
@@ -1859,6 +1922,15 @@
       "id": "gotsoccer-summer-classic-2026-"
     },
     {
+      "name": "Toyota of Orange Classic 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/50187",
+      "source": "gotsoccer",
+      "id": "gotsoccer-toyota-of-orange-classic-2026-"
+    },
+    {
       "name": "San Clemente Surf Classic 2026",
       "startDate": "",
       "endDate": "",
@@ -1866,6 +1938,24 @@
       "url": "https://rankings.gotsport.com/events/51981",
       "source": "gotsoccer",
       "id": "gotsoccer-san-clemente-surf-classic-2026-"
+    },
+    {
+      "name": "Central Coast Summer Classic 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/52842",
+      "source": "gotsoccer",
+      "id": "gotsoccer-central-coast-summer-classic-2026-"
+    },
+    {
+      "name": "Players Challenge Cup 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/52756",
+      "source": "gotsoccer",
+      "id": "gotsoccer-players-challenge-cup-2026-"
     }
   ]
 }

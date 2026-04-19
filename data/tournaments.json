@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T08:54:10.350Z",
+  "lastUpdated": "2026-04-19T08:58:25.551Z",
   "source": "GotSoccer (home.gotsoccer.com)",
   "state": "CA",
   "count": 195,
@@ -1112,6 +1112,15 @@
       "id": "gotsoccer-carlsbad-cup-boys-2026-"
     },
     {
+      "name": "Roseville Soccer Club Junction City Gold Cup 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "Roseville, CA",
+      "url": "https://rankings.gotsport.com/events/52932",
+      "source": "gotsoccer",
+      "id": "gotsoccer-roseville-soccer-club-junction-city-gold-cup-2026-"
+    },
+    {
       "name": "Creek Cup - Youngers 2026",
       "startDate": "",
       "endDate": "",
@@ -1146,15 +1155,6 @@
       "url": "https://rankings.gotsport.com/events/51392",
       "source": "gotsoccer",
       "id": "gotsoccer-playdate-santa-rosa-7-18-26-saturday-"
-    },
-    {
-      "name": "Roseville Soccer Club Junction City Gold Cup 2026",
-      "startDate": "",
-      "endDate": "",
-      "location": "Roseville, CA",
-      "url": "https://rankings.gotsport.com/events/52932",
-      "source": "gotsoccer",
-      "id": "gotsoccer-roseville-soccer-club-junction-city-gold-cup-2026-"
     },
     {
       "name": "Sporting California Summer Classic 2026",

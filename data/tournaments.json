@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T08:58:25.551Z",
+  "lastUpdated": "2026-04-26T09:05:16.900Z",
   "source": "GotSoccer (home.gotsoccer.com)",
   "state": "CA",
   "count": 195,
@@ -1373,15 +1373,6 @@
       "id": "gotsoccer-playdate-manteca-8-2-26-"
     },
     {
-      "name": "San Jose Cup - Fall 2026",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://rankings.gotsport.com/events/51210",
-      "source": "gotsoccer",
-      "id": "gotsoccer-san-jose-cup-fall-2026-"
-    },
-    {
       "name": "SoCal Cup-2026",
       "startDate": "",
       "endDate": "",
@@ -1389,6 +1380,15 @@
       "url": "https://rankings.gotsport.com/events/48414",
       "source": "gotsoccer",
       "id": "gotsoccer-socal-cup-2026-"
+    },
+    {
+      "name": "San Jose Cup - Fall 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/51210",
+      "source": "gotsoccer",
+      "id": "gotsoccer-san-jose-cup-fall-2026-"
     },
     {
       "name": "2026 California Rush Fall Cup",

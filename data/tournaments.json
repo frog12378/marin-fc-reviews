@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-03T09:23:53.790Z",
+  "lastUpdated": "2026-05-10T09:40:16.638Z",
   "source": "GotSoccer (home.gotsoccer.com)",
   "state": "CA",
-  "count": 175,
+  "count": 220,
   "tournaments": [
     {
       "name": "Event Rankings",
@@ -455,6 +455,15 @@
       "id": "gotsoccer-spring-2026-cal-north-district-2-recreational-cup-"
     },
     {
+      "name": "The Showcase",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53155",
+      "source": "gotsoccer",
+      "id": "gotsoccer-the-showcase-"
+    },
+    {
       "name": "5v5 Summer Shootout",
       "startDate": "",
       "endDate": "",
@@ -462,6 +471,15 @@
       "url": "https://rankings.gotsport.com/events/51341",
       "source": "gotsoccer",
       "id": "gotsoccer-5v5-summer-shootout-"
+    },
+    {
+      "name": "View Next 3 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=5/1/2026&age=&featured=&Page=5",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-3-events-"
     },
     {
       "name": "Ramona Soccer League Spring 2026",
@@ -473,15 +491,6 @@
       "id": "gotsoccer-ramona-soccer-league-spring-2026-"
     },
     {
-      "name": "View Next 1 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=5/1/2026&age=&featured=&Page=5",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-1-events-"
-    },
-    {
       "name": "Spring 2026 District 2 Recreational PTL",
       "startDate": "",
       "endDate": "",
@@ -489,6 +498,24 @@
       "url": "https://rankings.gotsport.com/events/49418",
       "source": "gotsoccer",
       "id": "gotsoccer-spring-2026-district-2-recreational-ptl-"
+    },
+    {
+      "name": "AirPitch Tournament",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53355",
+      "source": "gotsoccer",
+      "id": "gotsoccer-airpitch-tournament-"
+    },
+    {
+      "name": "Fall 2026 District 2 Recreational PTL",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54349",
+      "source": "gotsoccer",
+      "id": "gotsoccer-fall-2026-district-2-recreational-ptl-"
     },
     {
       "name": "The Rush Open - San Diego",
@@ -581,6 +608,24 @@
       "id": "gotsoccer-2026-summer-classic-"
     },
     {
+      "name": "San Mateo County Juneteenth Celebration - 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54453",
+      "source": "gotsoccer",
+      "id": "gotsoccer-san-mateo-county-juneteenth-celebration-2026-"
+    },
+    {
+      "name": "World Cup Playdate - Morgan Hill 6/13/26",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54334",
+      "source": "gotsoccer",
+      "id": "gotsoccer-world-cup-playdate-morgan-hill-6-13-26-"
+    },
+    {
       "name": "Girls Next Level Training Events",
       "startDate": "",
       "endDate": "",
@@ -624,6 +669,15 @@
       "url": "https://rankings.gotsport.com/events/51306",
       "source": "gotsoccer",
       "id": "gotsoccer-2026-lake-elsinore-summer-classic-"
+    },
+    {
+      "name": "CA Velocity Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54441",
+      "source": "gotsoccer",
+      "id": "gotsoccer-ca-velocity-cup-"
     },
     {
       "name": "Copa Cabana Beach Soccer Port Hueneme June 20",
@@ -698,6 +752,15 @@
       "id": "gotsoccer-2026-national-cup-west-regional-"
     },
     {
+      "name": "Independence Cup Tournament 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54307",
+      "source": "gotsoccer",
+      "id": "gotsoccer-independence-cup-tournament-2026-"
+    },
+    {
       "name": "CVFA Summer Invitational",
       "startDate": "",
       "endDate": "",
@@ -705,15 +768,6 @@
       "url": "https://rankings.gotsport.com/events/53740",
       "source": "gotsoccer",
       "id": "gotsoccer-cvfa-summer-invitational-"
-    },
-    {
-      "name": "View Next 10 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=6/1/2026&age=&featured=&Page=3",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-10-events-"
     },
     {
       "name": "2026 Cal South Mundialito",
@@ -869,6 +923,15 @@
       "id": "gotsoccer-pats-cup-2026-boys-"
     },
     {
+      "name": "Silver Cup at Cherry Island",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54345",
+      "source": "gotsoccer",
+      "id": "gotsoccer-silver-cup-at-cherry-island-"
+    },
+    {
       "name": "2026 Davis Legacy College Showcase BOYS EDITION",
       "startDate": "",
       "endDate": "",
@@ -894,6 +957,15 @@
       "url": "https://rankings.gotsport.com/events/52932",
       "source": "gotsoccer",
       "id": "gotsoccer-roseville-soccer-club-junction-city-gold-cup-2026-"
+    },
+    {
+      "name": "2026 DryWorld Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53043",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-dryworld-cup-"
     },
     {
       "name": "Creek Cup - Youngers 2026",
@@ -950,6 +1022,15 @@
       "id": "gotsoccer-summer-challenge-2026-"
     },
     {
+      "name": "2026 San Marcos United Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53204",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-san-marcos-united-cup-"
+    },
+    {
       "name": "Carlsbad Cup - Girls 2026",
       "startDate": "",
       "endDate": "",
@@ -995,6 +1076,15 @@
       "id": "gotsoccer-3rd-annual-socal-elite-college-showcase-"
     },
     {
+      "name": "ALBION SC Silicon Valley Stars \\u0026 Stripes Cup, '26",
+      "startDate": "",
+      "endDate": "",
+      "location": "Redwood City, CA",
+      "url": "https://rankings.gotsport.com/events/52960",
+      "source": "gotsoccer",
+      "id": "gotsoccer-albion-sc-silicon-valley-stars-u0026-stripes-cup-26-"
+    },
+    {
       "name": "Copa Cabana Beach Soccer Long Beach July 25",
       "startDate": "",
       "endDate": "",
@@ -1011,15 +1101,6 @@
       "url": "https://rankings.gotsport.com/events/53106",
       "source": "gotsoccer",
       "id": "gotsoccer-coronado-crown-city-classic-boys-2026-"
-    },
-    {
-      "name": "View Next 7 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=7/1/2026&age=&featured=&Page=3",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-7-events-"
     },
     {
       "name": "FC Long Beach Summer Invitational 2026",
@@ -1040,6 +1121,15 @@
       "id": "gotsoccer-platinum-ie-invitational-cup-2026-"
     },
     {
+      "name": "Route 71",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54452",
+      "source": "gotsoccer",
+      "id": "gotsoccer-route-71-"
+    },
+    {
       "name": "San Ramon FC Summer Classic 2026",
       "startDate": "",
       "endDate": "",
@@ -1047,6 +1137,15 @@
       "url": "https://rankings.gotsport.com/events/53412",
       "source": "gotsoccer",
       "id": "gotsoccer-san-ramon-fc-summer-classic-2026-"
+    },
+    {
+      "name": "Surf Summer Classic 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53583",
+      "source": "gotsoccer",
+      "id": "gotsoccer-surf-summer-classic-2026-"
     },
     {
       "name": "Playdate - Morgan Hill 7/26/26",
@@ -1103,6 +1202,15 @@
       "id": "gotsoccer-2026-mustang-stampede-boys-and-girls-youngers-u9-u12-"
     },
     {
+      "name": "2026 Orange County Summer Invitational",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53302",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-orange-county-summer-invitational-"
+    },
+    {
       "name": "20th Annual Beach Soccer SFClassic @ Ocean Beach",
       "startDate": "",
       "endDate": "",
@@ -1110,6 +1218,24 @@
       "url": "https://rankings.gotsport.com/events/51941",
       "source": "gotsoccer",
       "id": "gotsoccer-20th-annual-beach-soccer-sfclassic-ocean-beach-"
+    },
+    {
+      "name": "26  Surf EG Sunstroke Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/52783",
+      "source": "gotsoccer",
+      "id": "gotsoccer-26-surf-eg-sunstroke-cup-"
+    },
+    {
+      "name": "Breakers Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54726",
+      "source": "gotsoccer",
+      "id": "gotsoccer-breakers-cup-"
     },
     {
       "name": "Coronado Crown City Classic Girls 2026",
@@ -1193,6 +1319,24 @@
       "id": "gotsoccer-2026-dublin-united-shamrock-tournament-"
     },
     {
+      "name": "2026 Friendship Surf",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53367",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-friendship-surf-"
+    },
+    {
+      "name": "2026 Inland Empire \"iE\" Copa del Rey",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53547",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-inland-empire-ie-copa-del-rey-"
+    },
+    {
       "name": "2026 Mustang Stampede Girls (U15-U19)",
       "startDate": "",
       "endDate": "",
@@ -1209,6 +1353,15 @@
       "url": "https://rankings.gotsport.com/events/52559",
       "source": "gotsoccer",
       "id": "gotsoccer-22nd-annual-west-coast-futbol-classic-"
+    },
+    {
+      "name": "Champions Cup 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53316",
+      "source": "gotsoccer",
+      "id": "gotsoccer-champions-cup-2026-"
     },
     {
       "name": "Copa Cabana Beach Soccer Port Hueneme August 8",
@@ -1247,6 +1400,33 @@
       "id": "gotsoccer-la-summer-classic-2026-girls-weekend-"
     },
     {
+      "name": "Quarry Cup at Cherry Island",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54347",
+      "source": "gotsoccer",
+      "id": "gotsoccer-quarry-cup-at-cherry-island-"
+    },
+    {
+      "name": "Summer 5v5s 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54078",
+      "source": "gotsoccer",
+      "id": "gotsoccer-summer-5v5s-2026-"
+    },
+    {
+      "name": "SUMMER CHALLENGE 2026 Powered by ALBION",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53390",
+      "source": "gotsoccer",
+      "id": "gotsoccer-summer-challenge-2026-powered-by-albion-"
+    },
+    {
       "name": "Playdate - Turlock 8/9/26",
       "startDate": "",
       "endDate": "",
@@ -1254,6 +1434,15 @@
       "url": "https://rankings.gotsport.com/events/51470",
       "source": "gotsoccer",
       "id": "gotsoccer-playdate-turlock-8-9-26-"
+    },
+    {
+      "name": "2026 Attack Summer Classic",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53022",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-attack-summer-classic-"
     },
     {
       "name": "Coastal Classic - Girls 2026",
@@ -1283,6 +1472,15 @@
       "id": "gotsoccer-san-diego-premier-classic-2026-"
     },
     {
+      "name": "2026 Inland Empire \"iE\" Copa del Reina",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53548",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-inland-empire-ie-copa-del-reina-"
+    },
+    {
       "name": "2026 Mustang Stampede Boys (U13-U19)",
       "startDate": "",
       "endDate": "",
@@ -1290,6 +1488,15 @@
       "url": "https://rankings.gotsport.com/events/52184",
       "source": "gotsoccer",
       "id": "gotsoccer-2026-mustang-stampede-boys-u13-u19-"
+    },
+    {
+      "name": "2026 Strikers FC Summer Classic",
+      "startDate": "",
+      "endDate": "",
+      "location": "Orange County, CA",
+      "url": "https://rankings.gotsport.com/events/53358",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-strikers-fc-summer-classic-"
     },
     {
       "name": "2026 Temecula Summer Classic",
@@ -1308,6 +1515,15 @@
       "url": "https://rankings.gotsport.com/events/52457",
       "source": "gotsoccer",
       "id": "gotsoccer-anaheim-fc-summer-showcase-2026-"
+    },
+    {
+      "name": "Champions Cup - 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53737",
+      "source": "gotsoccer",
+      "id": "gotsoccer-champions-cup-2026-"
     },
     {
       "name": "Copa Cabana Beach Soccer Long Beach August 15",
@@ -1346,6 +1562,15 @@
       "id": "gotsoccer-laguna-beach-summer-classic-2026-boys-"
     },
     {
+      "name": "Puma Cup 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53364",
+      "source": "gotsoccer",
+      "id": "gotsoccer-puma-cup-2026-"
+    },
+    {
       "name": "Quakes Summer Cup - 2026",
       "startDate": "",
       "endDate": "",
@@ -1362,6 +1587,33 @@
       "url": "https://rankings.gotsport.com/events/51787",
       "source": "gotsoccer",
       "id": "gotsoccer-socal-elite-summer-invitational-"
+    },
+    {
+      "name": "Steel United Summer Showdown 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "Moorpark, CA",
+      "url": "https://rankings.gotsport.com/events/51044",
+      "source": "gotsoccer",
+      "id": "gotsoccer-steel-united-summer-showdown-2026-"
+    },
+    {
+      "name": "Website",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://steelsports.com/events/summer-showdown/",
+      "source": "gotsoccer",
+      "id": "gotsoccer-website-"
+    },
+    {
+      "name": "Verano Cup | Women’s \\u0026 Girls Edition",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53609",
+      "source": "gotsoccer",
+      "id": "gotsoccer-verano-cup-women-s-u0026-girls-edition-"
     },
     {
       "name": "Coastal Classic - Boys 2026",
@@ -1400,6 +1652,15 @@
       "id": "gotsoccer-albion-cup-preseason-elite-showcase-2026-"
     },
     {
+      "name": "Annual Girls Unite 5v5 Golden Gate Coastal Classic Kickoff Tournament",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53749",
+      "source": "gotsoccer",
+      "id": "gotsoccer-annual-girls-unite-5v5-golden-gate-coastal-classic-kickoff-tournament-"
+    },
+    {
       "name": "ESS Cup - Ticket To Spain",
       "startDate": "",
       "endDate": "",
@@ -1407,6 +1668,15 @@
       "url": "https://rankings.gotsport.com/events/53439",
       "source": "gotsoccer",
       "id": "gotsoccer-ess-cup-ticket-to-spain-"
+    },
+    {
+      "name": "Krush Cup Summer 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54511",
+      "source": "gotsoccer",
+      "id": "gotsoccer-krush-cup-summer-2026-"
     },
     {
       "name": "LAGUNA BEACH SUMMER CLASSIC 2026 - GIRLS",
@@ -1418,6 +1688,15 @@
       "id": "gotsoccer-laguna-beach-summer-classic-2026-girls-"
     },
     {
+      "name": "Mission Viejo Cup (Summer) 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54581",
+      "source": "gotsoccer",
+      "id": "gotsoccer-mission-viejo-cup-summer-2026-"
+    },
+    {
       "name": "Platinum IE Challenge Cup  - 2026",
       "startDate": "",
       "endDate": "",
@@ -1427,22 +1706,13 @@
       "id": "gotsoccer-platinum-ie-challenge-cup-2026-"
     },
     {
-      "name": "Steel United Summer Showdown 2026",
-      "startDate": "",
-      "endDate": "",
-      "location": "Moorpark, CA",
-      "url": "https://rankings.gotsport.com/events/51044",
-      "source": "gotsoccer",
-      "id": "gotsoccer-steel-united-summer-showdown-2026-"
-    },
-    {
-      "name": "Website",
+      "name": "View Next 7 Events →",
       "startDate": "",
       "endDate": "",
       "location": "",
-      "url": "https://steelsports.com/events/summer-showdown/",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=8/1/2026&age=&featured=&Page=6",
       "source": "gotsoccer",
-      "id": "gotsoccer-website-"
+      "id": "gotsoccer-view-next-7-events-"
     },
     {
       "name": "Summer Classic 2026",
@@ -1461,6 +1731,15 @@
       "url": "https://rankings.gotsport.com/events/50187",
       "source": "gotsoccer",
       "id": "gotsoccer-toyota-of-orange-classic-2026-"
+    },
+    {
+      "name": "Verano Cup | Men’s \\u0026 Boys Edition",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53607",
+      "source": "gotsoccer",
+      "id": "gotsoccer-verano-cup-men-s-u0026-boys-edition-"
     },
     {
       "name": "San Clemente Surf Classic 2026",
@@ -1490,6 +1769,15 @@
       "id": "gotsoccer-players-challenge-cup-2026-"
     },
     {
+      "name": "Annual California Youth Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/52295",
+      "source": "gotsoccer",
+      "id": "gotsoccer-annual-california-youth-cup-"
+    },
+    {
       "name": "Blues Cup Labor Day",
       "startDate": "",
       "endDate": "",
@@ -1499,13 +1787,49 @@
       "id": "gotsoccer-blues-cup-labor-day-"
     },
     {
+      "name": "2026 Davis Legacy LABOR DAY SUPER CUP",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/50196",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-davis-legacy-labor-day-super-cup-"
+    },
+    {
+      "name": "2026 Tampa Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/49856",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-tampa-cup-"
+    },
+    {
+      "name": "Bay Area Surf Pre Season Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53626",
+      "source": "gotsoccer",
+      "id": "gotsoccer-bay-area-surf-pre-season-cup-"
+    },
+    {
       "name": "Labor Day Classic 2026",
       "startDate": "",
       "endDate": "",
       "location": "",
-      "url": "https://rankings.gotsport.com/events/50646",
+      "url": "https://rankings.gotsport.com/events/49675",
       "source": "gotsoccer",
       "id": "gotsoccer-labor-day-classic-2026-"
+    },
+    {
+      "name": "Laguna Classic 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/52852",
+      "source": "gotsoccer",
+      "id": "gotsoccer-laguna-classic-2026-"
     },
     {
       "name": "2026 Davis Legacy PREMIER CUP",
@@ -1535,6 +1859,24 @@
       "id": "gotsoccer-26-ir-fall-cup-"
     },
     {
+      "name": "Capital Cup-2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53758",
+      "source": "gotsoccer",
+      "id": "gotsoccer-capital-cup-2026-"
+    },
+    {
+      "name": "Silicon Valley Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "Fremont, CA",
+      "url": "https://rankings.gotsport.com/events/52236",
+      "source": "gotsoccer",
+      "id": "gotsoccer-silicon-valley-cup-"
+    },
+    {
       "name": "2026 Scottsdale Cup",
       "startDate": "",
       "endDate": "",
@@ -1553,6 +1895,33 @@
       "id": "gotsoccer-cal-north-district-2-cup-fall-2026-"
     },
     {
+      "name": "Monster Mash at Cherry Island",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54348",
+      "source": "gotsoccer",
+      "id": "gotsoccer-monster-mash-at-cherry-island-"
+    },
+    {
+      "name": "Granite Bay FC Ghosts and Goals 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54438",
+      "source": "gotsoccer",
+      "id": "gotsoccer-granite-bay-fc-ghosts-and-goals-2026-"
+    },
+    {
+      "name": "2026 Dia De Los Muertos",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53396",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-dia-de-los-muertos-"
+    },
+    {
       "name": "2026 Dublin United Heritage Classic Tournament",
       "startDate": "",
       "endDate": "",
@@ -1560,6 +1929,24 @@
       "url": "https://rankings.gotsport.com/events/51720",
       "source": "gotsoccer",
       "id": "gotsoccer-2026-dublin-united-heritage-classic-tournament-"
+    },
+    {
+      "name": "2026 Placer United Girls Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53631",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-placer-united-girls-cup-"
+    },
+    {
+      "name": "2026 Thriller Classic presented by OV Toros FC",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53206",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-thriller-classic-presented-by-ov-toros-fc-"
     },
     {
       "name": "Kick or Treat Tournament",
@@ -1578,6 +1965,24 @@
       "url": "https://rankings.gotsport.com/events/50725",
       "source": "gotsoccer",
       "id": "gotsoccer-tsp-phantom-cup-2026-"
+    },
+    {
+      "name": "2026-27 NorCal Super Rec Cup U14-U19",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54560",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-27-norcal-super-rec-cup-u14-u19-"
+    },
+    {
+      "name": "Madera Roja Copa Madera 2026",
+      "startDate": "2018-08-01",
+      "endDate": "2019-07-31",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53815",
+      "source": "gotsoccer",
+      "id": "gotsoccer-madera-roja-copa-madera-2026-2018-08-01"
     }
   ]
 }

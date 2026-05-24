@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-17T09:49:14.307Z",
+  "lastUpdated": "2026-05-24T09:57:43.280Z",
   "source": "GotSoccer (home.gotsoccer.com)",
   "state": "CA",
-  "count": 220,
+  "count": 223,
   "tournaments": [
     {
       "name": "Event Rankings",
@@ -725,15 +725,6 @@
       "id": "gotsoccer-swallows-cup-2026-"
     },
     {
-      "name": "Aspire Finals - 25/26",
-      "startDate": "",
-      "endDate": "",
-      "location": "Norco, CA",
-      "url": "https://rankings.gotsport.com/events/49642",
-      "source": "gotsoccer",
-      "id": "gotsoccer-aspire-finals-25-26-"
-    },
-    {
       "name": "2026 Davis Legacy College Showcase GIRLS EDITION",
       "startDate": "",
       "endDate": "",
@@ -741,6 +732,15 @@
       "url": "https://rankings.gotsport.com/events/50192",
       "source": "gotsoccer",
       "id": "gotsoccer-2026-davis-legacy-college-showcase-girls-edition-"
+    },
+    {
+      "name": "Aspire Finals - 25/26",
+      "startDate": "",
+      "endDate": "",
+      "location": "Norco, CA",
+      "url": "https://rankings.gotsport.com/events/49642",
+      "source": "gotsoccer",
+      "id": "gotsoccer-aspire-finals-25-26-"
     },
     {
       "name": "2026 National Cup West Regional",
@@ -1166,6 +1166,15 @@
       "id": "gotsoccer-playdate-reno-7-26-26-"
     },
     {
+      "name": "View Next 2 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=7/1/2026&age=&featured=&Page=4",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-2-events-"
+    },
+    {
       "name": "2026 Los Angeles Cup",
       "startDate": "",
       "endDate": "",
@@ -1175,13 +1184,22 @@
       "id": "gotsoccer-2026-los-angeles-cup-"
     },
     {
-      "name": "Test - Done",
+      "name": "26  Surf EG Sunstroke Cup",
       "startDate": "",
       "endDate": "",
       "location": "",
-      "url": "https://rankings.gotsport.com/events/51314",
+      "url": "https://rankings.gotsport.com/events/52783",
       "source": "gotsoccer",
-      "id": "gotsoccer-test-done-"
+      "id": "gotsoccer-26-surf-eg-sunstroke-cup-"
+    },
+    {
+      "name": "Website",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://www.iracademysoccer.com/ir-academy-club-news-and-events",
+      "source": "gotsoccer",
+      "id": "gotsoccer-website-"
     },
     {
       "name": "San Clemente Cup 2026",
@@ -1218,15 +1236,6 @@
       "url": "https://rankings.gotsport.com/events/51941",
       "source": "gotsoccer",
       "id": "gotsoccer-20th-annual-beach-soccer-sfclassic-ocean-beach-"
-    },
-    {
-      "name": "26  Surf EG Sunstroke Cup",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://rankings.gotsport.com/events/52783",
-      "source": "gotsoccer",
-      "id": "gotsoccer-26-surf-eg-sunstroke-cup-"
     },
     {
       "name": "Breakers Cup",
@@ -1292,6 +1301,15 @@
       "id": "gotsoccer-san-jose-cup-fall-2026-"
     },
     {
+      "name": "Champions Cup 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53316",
+      "source": "gotsoccer",
+      "id": "gotsoccer-champions-cup-2026-"
+    },
+    {
       "name": "2026 California Rush Fall Cup",
       "startDate": "",
       "endDate": "",
@@ -1353,15 +1371,6 @@
       "url": "https://rankings.gotsport.com/events/52559",
       "source": "gotsoccer",
       "id": "gotsoccer-22nd-annual-west-coast-futbol-classic-"
-    },
-    {
-      "name": "Champions Cup 2026",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://rankings.gotsport.com/events/53316",
-      "source": "gotsoccer",
-      "id": "gotsoccer-champions-cup-2026-"
     },
     {
       "name": "Copa Cabana Beach Soccer Port Hueneme August 8",
@@ -1598,15 +1607,6 @@
       "id": "gotsoccer-steel-united-summer-showdown-2026-"
     },
     {
-      "name": "Website",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://steelsports.com/events/summer-showdown/",
-      "source": "gotsoccer",
-      "id": "gotsoccer-website-"
-    },
-    {
       "name": "Verano Cup | Women’s \\u0026 Girls Edition",
       "startDate": "",
       "endDate": "",
@@ -1706,15 +1706,6 @@
       "id": "gotsoccer-platinum-ie-challenge-cup-2026-"
     },
     {
-      "name": "View Next 7 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=8/1/2026&age=&featured=&Page=6",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-7-events-"
-    },
-    {
       "name": "Summer Classic 2026",
       "startDate": "",
       "endDate": "",
@@ -1722,6 +1713,15 @@
       "url": "https://rankings.gotsport.com/events/49663",
       "source": "gotsoccer",
       "id": "gotsoccer-summer-classic-2026-"
+    },
+    {
+      "name": "View Next 6 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=8/1/2026&age=&featured=&Page=6",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-6-events-"
     },
     {
       "name": "Toyota of Orange Classic 2026",
@@ -1796,6 +1796,15 @@
       "id": "gotsoccer-2026-davis-legacy-labor-day-super-cup-"
     },
     {
+      "name": "2026 Modesto Ajax Labor Day Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54909",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-modesto-ajax-labor-day-cup-"
+    },
+    {
       "name": "2026 Tampa Cup",
       "startDate": "",
       "endDate": "",
@@ -1832,6 +1841,15 @@
       "id": "gotsoccer-laguna-classic-2026-"
     },
     {
+      "name": "CUFA Tahoe Fall Classic 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/55067",
+      "source": "gotsoccer",
+      "id": "gotsoccer-cufa-tahoe-fall-classic-2026-"
+    },
+    {
       "name": "2026 Davis Legacy PREMIER CUP",
       "startDate": "",
       "endDate": "",
@@ -1839,6 +1857,15 @@
       "url": "https://rankings.gotsport.com/events/50197",
       "source": "gotsoccer",
       "id": "gotsoccer-2026-davis-legacy-premier-cup-"
+    },
+    {
+      "name": "View Next 5 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=9/1/2026&age=&featured=&Page=2",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-5-events-"
     },
     {
       "name": "2026 Tall Trees",

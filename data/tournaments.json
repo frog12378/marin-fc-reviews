@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-07T10:31:12.129Z",
+  "lastUpdated": "2026-06-14T10:50:05.842Z",
   "source": "GotSoccer (home.gotsoccer.com)",
   "state": "CA",
-  "count": 210,
+  "count": 211,
   "tournaments": [
     {
       "name": "Event Rankings",
@@ -14,6 +14,24 @@
       "id": "gotsoccer-event-rankings-"
     },
     {
+      "name": "2026 Santa Monica Summer Classic",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53004",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-santa-monica-summer-classic-"
+    },
+    {
+      "name": "Schedule",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://system.gotsport.com/org_event/events/53004",
+      "source": "gotsoccer",
+      "id": "gotsoccer-schedule-"
+    },
+    {
       "name": "The Rush Open - San Diego",
       "startDate": "",
       "endDate": "",
@@ -21,15 +39,6 @@
       "url": "https://rankings.gotsport.com/events/49030",
       "source": "gotsoccer",
       "id": "gotsoccer-the-rush-open-san-diego-"
-    },
-    {
-      "name": "Schedule",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://system.gotsport.com/org_event/events/49030",
-      "source": "gotsoccer",
-      "id": "gotsoccer-schedule-"
     },
     {
       "name": "Fall 2026 District 2 Recreational PTL",
@@ -102,15 +111,6 @@
       "url": "https://rankings.gotsport.com/events/51211",
       "source": "gotsoccer",
       "id": "gotsoccer-san-jose-cup-5v5-"
-    },
-    {
-      "name": "2026 Santa Monica Summer Classic",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://rankings.gotsport.com/events/53004",
-      "source": "gotsoccer",
-      "id": "gotsoccer-2026-santa-monica-summer-classic-"
     },
     {
       "name": "2026 Summer Classic",
@@ -878,13 +878,13 @@
       "id": "gotsoccer-20th-annual-beach-soccer-sfclassic-ocean-beach-"
     },
     {
-      "name": "ALBION SC Silicon Valley Stars \\u0026 Stripes Cup, '26",
+      "name": "ALBION SC Silicon Valley Stars Stripes Cup, '26",
       "startDate": "",
       "endDate": "",
       "location": "Redwood City, CA",
       "url": "https://rankings.gotsport.com/events/52960",
       "source": "gotsoccer",
-      "id": "gotsoccer-albion-sc-silicon-valley-stars-u0026-stripes-cup-26-"
+      "id": "gotsoccer-albion-sc-silicon-valley-stars-stripes-cup-26-"
     },
     {
       "name": "Breakers Cup",
@@ -1526,6 +1526,24 @@
       "id": "gotsoccer-2026-tampa-cup-"
     },
     {
+      "name": "47th Annual NHB Cup - Boys",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/56035",
+      "source": "gotsoccer",
+      "id": "gotsoccer-47th-annual-nhb-cup-boys-"
+    },
+    {
+      "name": "47th Annual NHB Cup - Girls",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/56037",
+      "source": "gotsoccer",
+      "id": "gotsoccer-47th-annual-nhb-cup-girls-"
+    },
+    {
       "name": "Bay Area Surf Pre Season Cup",
       "startDate": "",
       "endDate": "",
@@ -1551,15 +1569,6 @@
       "url": "https://rankings.gotsport.com/events/52852",
       "source": "gotsoccer",
       "id": "gotsoccer-laguna-classic-2026-"
-    },
-    {
-      "name": "View Next 10 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=9/1/2026&age=&featured=&Page=2",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-10-events-"
     },
     {
       "name": "Bay FC Cup - 2026",
@@ -1598,6 +1607,15 @@
       "id": "gotsoccer-cufa-tahoe-fall-classic-2026-"
     },
     {
+      "name": "Silicon Valley Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "Fremont, CA",
+      "url": "https://rankings.gotsport.com/events/52236",
+      "source": "gotsoccer",
+      "id": "gotsoccer-silicon-valley-cup-"
+    },
+    {
       "name": "2026 Davis Legacy PREMIER CUP",
       "startDate": "",
       "endDate": "",
@@ -1632,15 +1650,6 @@
       "url": "https://rankings.gotsport.com/events/53758",
       "source": "gotsoccer",
       "id": "gotsoccer-capital-cup-2026-"
-    },
-    {
-      "name": "Silicon Valley Cup",
-      "startDate": "",
-      "endDate": "",
-      "location": "Fremont, CA",
-      "url": "https://rankings.gotsport.com/events/52236",
-      "source": "gotsoccer",
-      "id": "gotsoccer-silicon-valley-cup-"
     },
     {
       "name": "2026 Scottsdale Cup",

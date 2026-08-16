@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-09T08:45:41.086Z",
+  "lastUpdated": "2026-08-16T08:32:11.126Z",
   "source": "GotSoccer (home.gotsoccer.com)",
   "state": "CA",
-  "count": 198,
+  "count": 204,
   "tournaments": [
     {
       "name": "Event Rankings",
@@ -1247,6 +1247,15 @@
       "id": "gotsoccer-smash-cup-2026-"
     },
     {
+      "name": "2026 Ghost Games",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/57792",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-ghost-games-"
+    },
+    {
       "name": "2026 Placer United Girls Cup",
       "startDate": "",
       "endDate": "",
@@ -1281,6 +1290,24 @@
       "url": "https://rankings.gotsport.com/events/51720",
       "source": "gotsoccer",
       "id": "gotsoccer-2026-dublin-united-heritage-classic-tournament-"
+    },
+    {
+      "name": "2026 End of Season Tournament (U9 - U12)",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/58068",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-end-of-season-tournament-u9-u12-"
+    },
+    {
+      "name": "2026 Fright Fiesta",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/57993",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-fright-fiesta-"
     },
     {
       "name": "2026 Thriller Classic presented by OV Toros FC",
@@ -1364,6 +1391,15 @@
       "id": "gotsoccer-tsp-phantom-cup-2026-"
     },
     {
+      "name": "View Next 4 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=10/1/2026&age=&featured=&Page=3",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-4-events-"
+    },
+    {
       "name": "2026 Invitational Showcase",
       "startDate": "",
       "endDate": "",
@@ -1380,15 +1416,6 @@
       "url": "https://rankings.gotsport.com/events/54560",
       "source": "gotsoccer",
       "id": "gotsoccer-2026-27-norcal-super-rec-cup-u14-u19-"
-    },
-    {
-      "name": "View Next 1 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=10/1/2026&age=&featured=&Page=3",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-1-events-"
     },
     {
       "name": "2026 Cal North District 5 Cup",
@@ -1425,6 +1452,15 @@
       "url": "https://rankings.gotsport.com/events/54558",
       "source": "gotsoccer",
       "id": "gotsoccer-2026-27-norcal-super-rec-cup-u8-u12-"
+    },
+    {
+      "name": "Half Moon Bay Coastal Classic",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/56968",
+      "source": "gotsoccer",
+      "id": "gotsoccer-half-moon-bay-coastal-classic-"
     },
     {
       "name": "NorCal Premier College Showcase (Boys)-Fall 2026",
@@ -1479,15 +1515,6 @@
       "url": "https://rankings.gotsport.com/events/53624",
       "source": "gotsoccer",
       "id": "gotsoccer-san-diego-thanksgiving-classic-2026-"
-    },
-    {
-      "name": "View Next 10 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=11/1/2026&age=&featured=&Page=2",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-10-events-"
     },
     {
       "name": "Blues Cup Thanksgiving 2026",
@@ -1553,6 +1580,15 @@
       "id": "gotsoccer-805-thanksgiving-classic-"
     },
     {
+      "name": "GotSport Thanksgiving Tournament - November",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/57188",
+      "source": "gotsoccer",
+      "id": "gotsoccer-gotsport-thanksgiving-tournament-november-"
+    },
+    {
       "name": "Playmakers Cup 2026",
       "startDate": "",
       "endDate": "",
@@ -1569,6 +1605,15 @@
       "url": "https://rankings.gotsport.com/events/55690",
       "source": "gotsoccer",
       "id": "gotsoccer-san-ramon-fc-turkey-u0026-turf-invitational-2026-"
+    },
+    {
+      "name": "View Next 1 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=11/1/2026&age=&featured=&Page=3",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-1-events-"
     },
     {
       "name": "GA Winter Showcase \\u0026 Champions Cup - SilverLakes - 26/27",
@@ -1643,6 +1688,15 @@
       "id": "gotsoccer-quakes-holiday-cup-2026-"
     },
     {
+      "name": "Surf College Cup Youngers 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53134",
+      "source": "gotsoccer",
+      "id": "gotsoccer-surf-college-cup-youngers-2026-"
+    },
+    {
       "name": "U9-U10 Copa Del Rey - 2026",
       "startDate": "",
       "endDate": "",
@@ -1670,6 +1724,15 @@
       "id": "gotsoccer-christmas-youth-super-cup-2026-"
     },
     {
+      "name": "View Next 6 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=12/1/2026&age=&featured=&Page=2",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-6-events-"
+    },
+    {
       "name": "MVLA Bay Area Winter Cup 2026",
       "startDate": "",
       "endDate": "",
@@ -1677,15 +1740,6 @@
       "url": "https://rankings.gotsport.com/events/56584",
       "source": "gotsoccer",
       "id": "gotsoccer-mvla-bay-area-winter-cup-2026-"
-    },
-    {
-      "name": "View Next 5 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=12/1/2026&age=&featured=&Page=2",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-5-events-"
     },
     {
       "name": "Platinum IE - Holiday Classic - 2026",

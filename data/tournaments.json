@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T08:32:11.126Z",
+  "lastUpdated": "2026-08-23T08:32:28.592Z",
   "source": "GotSoccer (home.gotsoccer.com)",
   "state": "CA",
   "count": 204,
@@ -30,6 +30,15 @@
       "url": "https://system.gotsport.com/org_event/events/49859",
       "source": "gotsoccer",
       "id": "gotsoccer-schedule-"
+    },
+    {
+      "name": "2026 Kelme Cup/OCKC",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/52200",
+      "source": "gotsoccer",
+      "id": "gotsoccer-2026-kelme-cup-ockc-"
     },
     {
       "name": "26  Surf EG Sunstroke Cup",
@@ -66,6 +75,15 @@
       "url": "https://rankings.gotsport.com/events/48414",
       "source": "gotsoccer",
       "id": "gotsoccer-socal-cup-2026-"
+    },
+    {
+      "name": "Verano Cup 26 - Boys Edition",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/53607",
+      "source": "gotsoccer",
+      "id": "gotsoccer-verano-cup-26-boys-edition-"
     },
     {
       "name": "2026 Capitol Cup [Girls Edition]",
@@ -122,24 +140,6 @@
       "id": "gotsoccer-20th-annual-beach-soccer-sfclassic-ocean-beach-"
     },
     {
-      "name": "ALBION SC Silicon Valley Stars Stripes Cup, '26",
-      "startDate": "",
-      "endDate": "",
-      "location": "Redwood City, CA",
-      "url": "https://rankings.gotsport.com/events/52960",
-      "source": "gotsoccer",
-      "id": "gotsoccer-albion-sc-silicon-valley-stars-stripes-cup-26-"
-    },
-    {
-      "name": "Breakers Cup",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://rankings.gotsport.com/events/54726",
-      "source": "gotsoccer",
-      "id": "gotsoccer-breakers-cup-"
-    },
-    {
       "name": "View Next 12 Events →",
       "startDate": "",
       "endDate": "",
@@ -156,6 +156,24 @@
       "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=8/1/2026&age=&featured=&Page=1",
       "source": "gotsoccer",
       "id": "gotsoccer-view-previous-25-events-"
+    },
+    {
+      "name": "ALBION SC Silicon Valley Stars Stripes Cup, '26",
+      "startDate": "",
+      "endDate": "",
+      "location": "Redwood City, CA",
+      "url": "https://rankings.gotsport.com/events/52960",
+      "source": "gotsoccer",
+      "id": "gotsoccer-albion-sc-silicon-valley-stars-stripes-cup-26-"
+    },
+    {
+      "name": "Breakers Cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/54726",
+      "source": "gotsoccer",
+      "id": "gotsoccer-breakers-cup-"
     },
     {
       "name": "Central Cal Aztecs Preseason Cup",
@@ -633,24 +651,6 @@
       "url": "https://rankings.gotsport.com/events/55264",
       "source": "gotsoccer",
       "id": "gotsoccer-stellies-cup-"
-    },
-    {
-      "name": "2026 Kelme Cup/OCKC",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://rankings.gotsport.com/events/52200",
-      "source": "gotsoccer",
-      "id": "gotsoccer-2026-kelme-cup-ockc-"
-    },
-    {
-      "name": "Verano Cup 26 - Boys Edition",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://rankings.gotsport.com/events/53607",
-      "source": "gotsoccer",
-      "id": "gotsoccer-verano-cup-26-boys-edition-"
     },
     {
       "name": "2026 AC Brea Kick Off Classic (Boys Weekend)",

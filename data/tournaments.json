@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-23T08:32:28.592Z",
+  "lastUpdated": "2026-08-30T13:39:20.768Z",
   "source": "GotSoccer (home.gotsoccer.com)",
   "state": "CA",
-  "count": 204,
+  "count": 206,
   "tournaments": [
     {
       "name": "Event Rankings",
@@ -617,6 +617,15 @@
       "id": "gotsoccer-quakes-summer-cup-2026-"
     },
     {
+      "name": "San Ramon FC Soccerfest 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/55687",
+      "source": "gotsoccer",
+      "id": "gotsoccer-san-ramon-fc-soccerfest-2026-"
+    },
+    {
       "name": "SoCal Elite Summer Invitational",
       "startDate": "",
       "endDate": "",
@@ -788,6 +797,15 @@
       "id": "gotsoccer-summer-classic-2026-"
     },
     {
+      "name": "View Next 10 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=8/1/2026&age=&featured=&Page=8",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-10-events-"
+    },
+    {
       "name": "Summer Fest 2026",
       "startDate": "",
       "endDate": "",
@@ -795,15 +813,6 @@
       "url": "https://rankings.gotsport.com/events/57001",
       "source": "gotsoccer",
       "id": "gotsoccer-summer-fest-2026-"
-    },
-    {
-      "name": "View Next 9 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=8/1/2026&age=&featured=&Page=8",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-9-events-"
     },
     {
       "name": "Toyota of Orange Classic 2026",
@@ -894,6 +903,15 @@
       "url": "https://rankings.gotsport.com/events/52295",
       "source": "gotsoccer",
       "id": "gotsoccer-annual-california-youth-cup-"
+    },
+    {
+      "name": "Cash cup",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://rankings.gotsport.com/events/57623",
+      "source": "gotsoccer",
+      "id": "gotsoccer-cash-cup-"
     },
     {
       "name": "IRVINE WORLD CUP 2026",
@@ -1013,6 +1031,15 @@
       "id": "gotsoccer-los-angeles-labor-day-cup-"
     },
     {
+      "name": "Summer 6's 2026",
+      "startDate": "",
+      "endDate": "",
+      "location": "Redding, CA",
+      "url": "https://rankings.gotsport.com/events/57616",
+      "source": "gotsoccer",
+      "id": "gotsoccer-summer-6-s-2026-"
+    },
+    {
       "name": "Battle in the Bay",
       "startDate": "",
       "endDate": "",
@@ -1083,15 +1110,6 @@
       "url": "https://rankings.gotsport.com/events/52784",
       "source": "gotsoccer",
       "id": "gotsoccer-26-eg-surf-fall-cup-"
-    },
-    {
-      "name": "View Next 11 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=9/1/2026&age=&featured=&Page=3",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-11-events-"
     },
     {
       "name": "Fall Cup 2026",
@@ -1173,6 +1191,15 @@
       "url": "https://rankings.gotsport.com/events/55999",
       "source": "gotsoccer",
       "id": "gotsoccer-sunnyvale-alliance-medina-fall-classic-2026-"
+    },
+    {
+      "name": "View Next 1 Events →",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=9/1/2026&age=&featured=&Page=4",
+      "source": "gotsoccer",
+      "id": "gotsoccer-view-next-1-events-"
     },
     {
       "name": "At The Break Rec Tournament 2026",
@@ -1605,15 +1632,6 @@
       "url": "https://rankings.gotsport.com/events/55690",
       "source": "gotsoccer",
       "id": "gotsoccer-san-ramon-fc-turkey-u0026-turf-invitational-2026-"
-    },
-    {
-      "name": "View Next 1 Events →",
-      "startDate": "",
-      "endDate": "",
-      "location": "",
-      "url": "https://home.gotsoccer.com/events.aspx?type=Tournament&search=&state=CA&date=11/1/2026&age=&featured=&Page=3",
-      "source": "gotsoccer",
-      "id": "gotsoccer-view-next-1-events-"
     },
     {
       "name": "GA Winter Showcase \\u0026 Champions Cup - SilverLakes - 26/27",
